@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* font-family: 'Montserrat', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+.container section {
+    color: rgb(138, 138, 138);
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    scroll-snap-align: end;
+}
+
+.container img {
+    /* width: 30em; */
+    width: 100%;
+    height: auto;
+}
+
+.container div {
+    position: relative;
+    top: 20vh;
+}
+
+.landing img {
+    height: auto;
+    width: 50%;
+    position: relative;
+    top: -10vh;
+}
+
+.container h2 {
+    position: relative;
+    top: -10vh;
+    font-size: x-large;
+    color: #E50000;
+}
+.container h1 {
+    color: #E50000;
+}
+
+.container span {
+    display: none;
+}
+
+.container h1, h5 {
+    position: relative;
+    top: 10vh;
+    font-size: xx-large;
+    font-style: italic;
+}
+
+.container h5 {
+    font-size: small;
+    float: right;
+    margin-right: 2.5em;
+}
+
+.container .landing h1 {
+    position: relative;
+    top: 50vh;
+    color: rgb(117, 117, 117);
+    font-size: small;
+}
+
+.container h4 {
+    position: relative;
+    top: 35vh;
+    width: 50%;
+    margin: auto;
+    background-color: rgb(22, 22, 22);
+    padding: 1.5vh;
+    border-radius: 50vh;
+}
+
+.container h4:hover {
+    background-color: #E50000;
+    color: black;
+    transition: all .5s;
+}
+
+.container h4:not(:hover) {
+    background-color: rgb(22, 22, 22);
+    color: rgb(138, 138, 138);
+    transition: all .75s;
+}
+
+.container hx {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 25vh;
+    font-style: italic;
+}
+
+.container hx h3 {
+    margin: auto;
+    color: #E50000;
+}
+tx {
+    color: rgb(138, 138, 138);
+    font-size: smaller;
+}
