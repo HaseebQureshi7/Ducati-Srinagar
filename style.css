@@ -83,7 +83,7 @@
     display: none;
 }
 
-.container h1, h5 {
+.container h1{
     position: relative;
     top: 10vh;
     font-size: xx-large;
@@ -91,6 +91,8 @@
 }
 
 .container h5 {
+    position: relative;
+    top: 10vh;
     font-size: small;
     float: right;
     margin-right: 2.5em;
@@ -98,7 +100,7 @@
 
 .container .landing h1 {
     position: relative;
-    top: 50vh;
+    top: 40vh;
     color: rgb(117, 117, 117);
     font-size: small;
 }
@@ -146,4 +148,130 @@ tx {
     position: relative;
     top: 50vh;
     width: 10%;
+}
+
+.container .footer {
+    position: relative;
+    top: -5vh;
+    color: rgb(138, 138, 138);
+    text-align: center;
+    font-weight: bolder;
+    height: 100vh;
+}
+
+st {
+    color: #E50000;
+    font-size: large;
+    font-style: italic;
+}
+
+
+
+
+
+@media screen and (orientation:landscape){
+    
+    .container img {
+        width: 50%;
+        margin-top: 15vh;
+        height: auto;
+        float: right;
+        margin-right: 5vh;
+        border-radius: 10vh;
+    }
+    
+    .container div {
+        position: relative;
+        top: 0vh;
+        margin-top: 0vh;
+        margin-bottom: 10vh;
+    }
+
+    .landing img {
+        height: auto;
+        float: none;
+        left: 6vh;
+        width: 25%;
+        position: relative;
+        top: 0vh;
+    }
+    
+    .container h2 {
+        position: relative;
+        top: 0vh;
+        text-align: center;
+        font-size: xxx-large;
+        color: #E50000;
+    }
+    
+    .container h1{
+        position: relative;
+        float: left;
+        margin-left: 12vh;
+        top: 25vh;
+        font-size: 4em;
+        font-style: italic;
+    }
+    
+    .container h5 {
+        position: relative;
+        top: 35vh;
+        font-size: small;
+        float: left;
+        margin-left: 0vh;
+        margin-right: 0em;
+    }
+    
+    .container .landing h1 {
+        position:relative;
+        top: 0vh;
+        float: none;
+        margin: auto;
+        color: rgb(117, 117, 117);
+        font-size: small;
+    }
+    
+    .container h4 {
+        position: relative;
+        top: 45vh;
+        width: 40%;
+        float: left;
+        margin-left: 4em;
+        background-color: rgb(22, 22, 22);
+        padding: 1.5vh;
+        border-radius: 0vh;
+    }
+    
+    .container hx {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 40vh;
+        font-style: italic;
+    }
+    
+    .container hx h3 {
+        margin: auto;
+        color: #E50000;
+    }
+    tx {
+        color: rgb(138, 138, 138);
+        font-size: smaller;
+    }
+    
+    .container .scroll {
+        position: relative;
+        top: -15vh;
+        width: 2.5%;
+    }
+    
+    .container .footer {
+        position: relative;
+        top: -5vh;
+        color: rgb(138, 138, 138);
+        text-align: end;
+        margin-right: 5vh;
+        height: 100vh;
+    }
+
 }
