@@ -169,7 +169,7 @@ st {
 
 
 
-@media screen and (orientation:landscape){
+/* @media screen and (orientation:landscape){
     
     .container img {
         width: 50%;
@@ -274,4 +274,4 @@ st {
         height: 100vh;
     }
 
-}
+} */
