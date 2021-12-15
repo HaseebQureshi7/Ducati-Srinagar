@@ -31,12 +31,12 @@
     width: 100%;
     height:100vh;
     background-color: black;
-    animation: onload 1s alternate infinite;
 }
 
 .onload img {
     width: 25% !important;
     margin-top: 25vh !important;
+    animation: onload 1s alternate infinite;
 }
 
 
