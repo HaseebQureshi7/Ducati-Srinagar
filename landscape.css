@@ -2,7 +2,164 @@
 
 /* font-family: 'Montserrat', sans-serif; */
 
-* {
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.master {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    text-align: center;
+
+
+}
+
+.onload {
+    position: fixed;
+    width: 100%;
+    height:100vh;
+    background-color: black;
+    animation: onload 1s alternate infinite;
+}
+
+.onload img {
+    width: 25% !important;
+    margin-top: 25vh !important;
+}
+
+
+@keyframes onload {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+
+.container section {
+    scroll-snap-align: end;
+    color: rgb(138, 138, 138);
+    height: 100vh;
+    margin: auto;
+    width: 75%;
+    padding: 10vh;
+}
+
+.container img {
+    width: 50%;
+    margin: 5vh;
+}
+
+.container h1,h2 {
+    color: #E50000;
+}
+
+.container .landing img{
+    width: 30%;
+    margin-bottom: 0;
+}
+
+.container h1 {
+    font-size: xxx-large ;
+    font-style: italic;
+}
+
+.landing h1{
+    font-size: small;
+    color: rgb(138, 138, 138);
+}
+
+.landing h2 {
+    font-size: xx-large;
+    margin-bottom: 10%;
+}
+
+.scroll {
+    margin: auto;
+    width:10%;
+}
+
+.container hx {
+    display: flex;
+    flex-direction: row;
+    font-style: italic;
+}
+
+.container hx h3 {
+    margin: auto;
+    color: #E50000;
+}
+tx {
+    color: rgb(138, 138, 138);
+    font-size: smaller;
+}
+
+.container h4 {
+    width: 50%;
+    margin: auto;
+    margin-top: 5%;
+    background-color: rgb(22, 22, 22);
+    border-radius: 100vh;
+    padding: 1.5vh;
+}
+
+.container h4:hover {
+    background-color: #E50000;
+    color: black;
+    transition: all .5s;
+}
+
+.container h4:not(:hover) {
+    background-color: rgb(22, 22, 22);
+    color: rgb(138, 138, 138);
+    transition: all .75s;
+}
+
+.container .footer {
+    color: rgb(138, 138, 138);
+    text-align: center;
+    font-weight: bolder;
+    height: 100vh;
+}
+
+st {
+    color: #E50000;
+    font-size: large;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -171,4 +328,4 @@ st {
     font-size: large;
     font-style: italic;
 }
-
+ */

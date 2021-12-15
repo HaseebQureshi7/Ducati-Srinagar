@@ -147,6 +147,7 @@ tx {
 .container .scroll {
     position: relative;
     top: 50vh;
+    margin: auto;
     width: 10%;
 }
 
