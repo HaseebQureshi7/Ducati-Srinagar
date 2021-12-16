@@ -52,6 +52,7 @@
 
 
 .container section {
+    margin-bottom: 25% !important;
     scroll-snap-align: end;
     color: rgb(138, 138, 138);
     height: 100vh;
